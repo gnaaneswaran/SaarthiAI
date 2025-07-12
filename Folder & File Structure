@@ -1,0 +1,36 @@
+SaarthiAI/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+├── main.py
+├── config/
+│   └── settings.py
+├── agents/
+│   └── saarthi_agent.py
+├── data/
+│   └── sample_intents.json
+├── interfaces/
+│   ├── whatsapp_connector.py
+│   ├── ivr_connector.py
+│   └── android_lite_app/  # placeholder for frontend
+├── services/
+│   ├── scheme_lookup.py
+│   ├── weather_alerts.py
+│   └── healthcare_directory.py
+├── utils/
+│   ├── speech_utils.py
+│   ├── translation_utils.py
+│   └── geo_utils.py
+├── firebase/
+│   ├── firestore_schema.md
+│   └── functions/
+│       └── trigger_scheme_match.js
+├── docs/
+│   ├── architecture.md
+│   ├── process_flow.png
+│   ├── wireframes/
+│   │   └── tamil_mock.png
+│   └── use_cases.md
+├── assets/
+│   └── logo.png
